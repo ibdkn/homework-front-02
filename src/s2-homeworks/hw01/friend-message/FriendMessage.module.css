@@ -20,7 +20,8 @@
     position: relative;
     padding: 7px 13px;
     text-align: left;
-    background-color: #0066CC;
+    filter: drop-shadow(0 1px 1px rgba(29, 33, 38, 0.1));
+    background: #f5f7fb;
     border-radius: 10px 10px 10px 0;
 }
 
@@ -31,7 +32,7 @@
     position: absolute;
     bottom: 0;
     left: -12px;
-    border-bottom: 12px solid #0066CC;
+    border-bottom: 12px solid #f5f7fb;
     border-left: 12px solid transparent;
 }
 
@@ -39,7 +40,7 @@
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     font-size: 18px;
-    color: #fff;
+    color: #000;
     margin-bottom: 3px;
 }
 
@@ -47,7 +48,8 @@
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     font-size: 16px;
-    color: #fff;
+    color: #000;
+    white-space: normal;
 }
 
 .friendTime {
