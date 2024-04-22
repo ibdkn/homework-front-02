@@ -2,10 +2,24 @@
     --header_height: 60px;
 }
 
-.hw {
+.container {
+    max-width: 1160px;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0 auto;
+}
 
+.hw {
+    padding: 24px 0 32px 0;
+    border-top: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
 }
 
 .hwTitle {
-
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: #000;
+    margin-bottom: 10px;
 }
