@@ -1,7 +1,10 @@
 .select {
+    cursor: pointer;
+    background-color: white;
 }
 
 .select:focus {
+
 }
 
 

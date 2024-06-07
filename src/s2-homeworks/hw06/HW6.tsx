@@ -12,6 +12,7 @@ import s from './HW6.module.css'
  */
 
 const HW6 = () => {
+    const localStorageKey = 'hw6-editable-span-value'
     const [value, setValue] = useState<string>('')
 
     const save = () => {
@@ -19,11 +20,12 @@ const HW6 = () => {
     }
     const restore = () => {
         // делают студенты
-
+        const storageValue = localStorage.getItem(localStorageKey);
+        setValue(storageValue ? JSON.parse(storageValue) : "");
     }
 
     return (
-        <div id={'hw6'}>
+        <div id={'hw6'} className={s2.container}>
             <div className={s2.hwTitle}>Homework #6</div>
 
             {/*демонстрация возможностей компоненты:*/}
