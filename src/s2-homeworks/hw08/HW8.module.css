@@ -1,23 +1,52 @@
 .item {
+    max-width: 606px;
+    font-weight: 300;
+    display: flex;
+    border-bottom: 1px solid #e5e5e5;
 }
 
 .item:last-of-type {
+    border-bottom: none;
 }
 
 .users {
+    width: 50%;
 }
 
 .buttonsContainer {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 18px;
 }
 
 .container {
+    width: 100%;
 }
 
 .thead {
+    width: 606px;
+    display: block;
+    font-weight: 600;
+    background-color: #E5E5E5;
+
+    tr {
+        display: flex;
+    }
 }
 
 .nameCol {
+    padding: 11px 17px;
+    width: 50%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: #000;
 }
 
 .ageCol {
+    padding: 11px 17px;
+    width: 50%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #000;
 }
